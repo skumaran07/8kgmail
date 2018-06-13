@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.test.LoginPage">
+        <methods>
+          <include name="clickWithBlankEmail"/>
+          <include name="setUp"/>
+          <include name="browserBack"/>
+          <include name="verifyPasswordPage"/>
+          <include name="checkEmailField"/>
+          <include name="clickWithBlankPassword"/>
+          <include name="validate" invocation-numbers="0 1"/>
+          <include name="verifyUserInbox"/>
+        </methods>
+      </class> <!-- com.test.LoginPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
