@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suits]">
+  <test name="SampleTest(failed)">
+    <classes>
+      <class name="com.test.SendFolder">
+        <methods>
+          <include name="end"/>
+          <include name="setUp"/>
+          <include name="nextPage"/>
+        </methods>
+      </class> <!-- com.test.SendFolder -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Suits] -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suits">
+<test name="GmailLogin">
+<classes>
+<class name="com.test.LoginPage">
+ <methods>
+     <include name="browserBack"></include>
+ </methods>
+</class>
+</classes>
+</test>
+
+<!-- <test name="GmailInboxCount">
+<classes>
+<class name="com.test.InboxCount">
+</class>
+</classes>
+</test>
+
+<test name="GmailSendFolder">
+<classes>
+<class name="com.test.SendFolder">
+</class>
+</classes>
+</test>
+
+<test name="GmailSignOut">
+<classes>
+<class name="com.test.SignOut">
+</class>
+</classes>
+</test> -->
+</suite>
