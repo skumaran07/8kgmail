@@ -132,7 +132,7 @@ public class LoginPage {
 		wait3.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'COMPOSE')]")));
 		String title = obj.driver.getTitle();
 		if(title.contains("Gmail")){
-			System.out.println("Gmail home page is displaying");}
+			System.out.println("Gmail home page is display");}
 		else{
 			System.out.println("Page redirected into incorrecly");
 		}
